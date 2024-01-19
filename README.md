@@ -23,21 +23,4 @@ Automatically extract and manage candidate data from resumes.
 3. Configure environment variables.
 4. Run the application: `app.py`
 
-## Usage
 
-[Include brief instructions on how to use the application.]
-
-## Contributing
-
-See [Contributing Guidelines](CONTRIBUTING.md).
-
-## License
-
-MIT License. See [LICENSE](LICENSE).
-
-## Contact
-
-[Your Name] - [Your Email]
-```
-
-Customize the placeholders like `[Your Name]`, `[Your Email]`, and `[your-username]` with your actual information. This short README provides a quick overview of the project, features, setup instructions, and essential information for contributors.
