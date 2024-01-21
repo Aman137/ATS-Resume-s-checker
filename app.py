@@ -1,3 +1,4 @@
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -96,11 +97,4 @@ elif submit3:
         st.write(response)
     else:
         st.write("Please uplaod the resume")
-
-
-
-
-
-
-
 
