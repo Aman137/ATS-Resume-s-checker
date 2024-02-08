@@ -1,8 +1,12 @@
-#pip install python-dotenv
-
-from dotenv import load_dotenv
+import sys
+try:
+    from dotenv import load_dotenv
+except ModuleNotFoundError:
+    print("dotenv library not found. Please install it by running: pip install python-dotenv")
+    sys.exit(1)
 
 load_dotenv()
+
 import base64
 import streamlit as st
 import os, sys
@@ -98,4 +102,5 @@ elif submit3:
         st.write(response)
     else:
         st.write("Please uplaod the resume")
+
 
